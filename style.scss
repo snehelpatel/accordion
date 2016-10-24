@@ -1,0 +1,33 @@
+#container {
+  border: 1px solid #00DFF0;
+  max-width: 500px;
+  height: 400px;
+  margin:auto;
+  color: gray;
+  overflow: hidden;
+}
+
+h3 { background: #00DFF0;
+  text-align: center;
+  height:40px;
+  color: #FEFCF4;
+  margin: 0px;
+
+
+}
+
+.cont{
+// visibility:collapse;
+height: 0px;
+overflow: hidden;
+transition: 2s ease;
+
+}
+
+
+
+.hidden-cont{
+height:inherit;
+transition: 2s ease;
+
+}
